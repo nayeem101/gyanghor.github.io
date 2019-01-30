@@ -250,27 +250,7 @@ ul.breadcrumb {
 .archive-con-d li a p{
     color: #003050;
     margin: 0;
-    padding: 12px 90px;
+    padding: 12px 60px;
     font-size: 18px;
     font-family: calibri;
-}
-
-@media(max-width: 320px) {
-    .archive-con-d li a p {
-        padding: 12px 60px;
-    }
-    .archive-con-m li a p{
-        padding: 12px 60px;
-    }
-    .archive-con-y li a {
-        width: 80px;
-    }
-}
-@media(min-width: 321px) and (max-width: 360px) {
-    .archive-con-d li a p{
-        padding: 12px 80px;
-    }
-    .archive-con-m li a p{
-        padding: 12px 80px;
-    }
 }
