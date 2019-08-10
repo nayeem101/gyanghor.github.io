@@ -7,73 +7,74 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
     <!-- <font awesome> -->
-    <!-- <script src="fontawesome/js/all.js"></script> -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <!-- main css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>জ্ঞানঘর-কুবি</title>
 </head>
 
-<body >
+<body>
     <!-- nav with login register -->
-    <div id="tnav">
+    <div id="tnav" class="navbar-fixed">
         <nav class="blue-grey darken-1" id="tnav">
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo">জ্ঞানঘর</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#" class="btn  waves-effect waves-light  blue lighten-4 black-text">Log in</a></li>
-                    <li><a href="#" class="btn  waves-effect blue">Register</a></li>
+                    <li><a href="#!" class="btn  waves-effect waves-light  blue lighten-4 black-text">Log in</a></li>
+                    <li><a href="#!" class="btn  waves-effect blue">Register</a></li>
                 </ul>
         </nav>
     </div>
     <!-- main nav -->
     <div>
         <nav class="blue-grey">
-            <div class="nav-wrapper container">
-                <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down" id="mynav">
-                    <li><a href="#">Home <i class="material-icons left">home</i> </a></li>
-                    <li><a href="#">eBooks <i class="material-icons left">book</i></a></li>
-                    <li><a href="#"> <i class="fas fa-blog left"></i>Blogs</a></li>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger right">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down" id="mynav">
+                        <li><a href="#">Home <i class="material-icons left">home</i> </a></li>
+                        <li><a href="#">eBooks <i class="material-icons left">book</i></a></li>
+                        <li><a href="#"> <i class="fas fa-blog left"></i>Blogs</a></li>
 
-                    <!-- dropdown trigger -->
-                    <li>
-                        <a href="#" class="dropdown-trigger" data-target="my-drop">
-                            <i class="fas fa-newspaper left"></i>
-                            Resources
-                            <i class="material-icons right">arrow_drop_down</i>
-                        </a>
-                    </li>
+                        <!-- dropdown trigger -->
+                        <li>
+                            <a href="#" class="dropdown-trigger" data-target="my-drop">
+                                <i class="fas fa-newspaper left"></i>
+                                Resources
+                                <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="material-icons left">help</i> Help</a>
-                    </li>
-                </ul>
-                <!-- mobile nav -->
-                <ul class="sidenav blue-grey lighten-1" id="mobile-nav">
-                    <li><a href="#">Home <i class="material-icons left">home</i> </a></li>
-                    <li><a href="#">eBooks <i class="material-icons left">book</i></a></li>
-                    <li><a href="#"> <i class="fa fa-blog left"></i>Blogs</a></li>
-                    <li><a href="#"> <i class="material-icons left">featured_play_list</i> Magazines</a></li>
-                    <li><a href="#"> <i class="fas fa-journal-whills left"></i>Journals</a></li>
-                    <li><a href="#"><i class="material-icons left">import_contacts</i>Research Papers</a></li>
-                    <li>
-                        <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="material-icons left">help</i> Help</a>
-                    </li>
-                </ul>
+                        <li>
+                            <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="material-icons left">help</i> Help</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
+    <!-- mobile nav -->
+    <ul class="sidenav blue-grey lighten-1" id="mobile-nav">
+        <li><a href="#">Home <i class="material-icons left">home</i> </a></li>
+        <li><a href="#">eBooks <i class="material-icons left">book</i></a></li>
+        <li><a href="#"> <i class="fa fa-blog left"></i>Blogs</a></li>
+        <li><a href="#"> <i class="material-icons left">featured_play_list</i> Magazines</a></li>
+        <li><a href="#"> <i class="fas fa-journal-whills left"></i>Journals</a></li>
+        <li><a href="#"><i class="material-icons left">import_contacts</i>Research Papers</a></li>
+        <li>
+            <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
+        </li>
+        <li>
+            <a href="#"><i class="material-icons left">help</i> Help</a>
+        </li>
+    </ul>
     <!-- dropdown menu -->
     <ul id="my-drop" class="dropdown-content grey lighten-1">
         <li><a href="#">Magazines</a></li>
@@ -96,17 +97,17 @@
                         </button>
                     </div>
                     <!-- radio btns -->
-                    <p id="myRbtn">
-                        <label>
-                            <input type="radio" name="rd1" checked>
-                            <span class="white-text">by author</span>
+                    <p id="myrd"> <label>
+                            <input class="with-gap" name="rd1" type="radio" checked />
+                            <span>by Author</span> 
                         </label>
-                        <label>
-                            <input type="radio" name="rd1">
-                            <span class="white-text">by book</span>
+                         <label>
+                            <input class="with-gap" name="rd1" type="radio" />
+                            <span>by Book</span> 
                         </label>
                     </p>
                 </div>
+
             </div>
         </div>
     </section>
@@ -230,17 +231,6 @@
 
 
 
-
-
-
-
-
-
-
-    <div style="height:300px"></div>
-
-
-
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script>
@@ -253,40 +243,6 @@
         M.Dropdown.init(drop, {
             coverTrigger: false
         });
-
-
-        // //scrollspy
-        // const ss = document.querySelector('.scrollspy');
-        //  M.ScrollSpy.init(ss,{});
-
-        // //slider
-        // const slider = document.querySelector('.slider');
-        // M.Slider.init(slider, {
-        //     indicators: false,
-        //     height: 500,
-        //     transition: 500,
-        //     interval: 6000
-        // });
-
-        // //autocomplete
-        // const ac = document.querySelector('.autocomplete');
-        // M.Autocomplete.init(ac, {
-        //     data: {
-        //         "Spain": null,
-        //         "South Africa": null,
-        //         "India": null,
-        //         "USA": null,
-        //         "Turkey": null,
-        //         "Japan": null,
-        //         "Australlia": null,
-        //         "Cox's Bazar": null,
-        //         "Bangladesh": null,
-        //     }
-        // });
-
-        // //material boxed
-        // const mb = document.querySelectorAll('.materialboxed')
-        // M.Materialbox.init(mb, {});
     </script>
 </body>
 
