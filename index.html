@@ -1,90 +1,240 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <title>CoU ICT Notice</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <!-- <font awesome> -->
+    <!-- <script src="fontawesome/js/all.js"></script> -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>জ্ঞানঘর-কুবি</title>
 </head>
 
-<body>
-    <!------Navigation-------->
-    <nav class="navbar navbar-expand navbar-light justify-content-center nav-design">
-        <div class="col-12">
-            <ul class="nav navbar-nav text-center">
-                <li class="nav-item active">
-                    <a class="nav-link active" href="index.html">New Notices</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="archive/archive.html">Archive</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--==========Notices========-->
-    <div class="contents">
-        <div class="notice">
-            <p class="date">Feb 05, 2019</p>
-            <h2 class="notice_title">খেলাধুলার সামগ্রী জমা দেওয়া প্রসঙ্গে</h2>
-            <a href="archive/2019/february 2019/feb_05.html">
-                <p>Details</p>
-            </a>
-        </div>
-        <div class="notice">
-            <p class="date">Jan 28, 2019</p>
-            <h2 class="notice_title">বোর্ড বৃত্তির প্রত্যয়নপত্র আহ্বান সেশন ২০১৮-১৯</h2>
-            <a href="archive/2019/january 2019/jan_28.html">
-                <p>Details</p>
-            </a>
-        </div>
-        <div class="notice">
-            <p class="date">Jan 28, 2019</p>
-            <h2 class="notice_title">ভিসি স্যারের এক বছর মেয়াদ পুরন উপলক্ষে একটি মুক্ত আলোচনা</h2>
-            <a href="archive/2019/january 2019/jan_28_2.html">
-                <p>Details</p>
-            </a>
-        </div>
-        <div class="notice">
-            <p class="date">Jan 20, 2019</p>
-            <h2 class="notice_title">আগামী ২৩ তারিখে অ্যালগোরিদম ওর উপর সেমিনার</h2>
-            <a href="archive/2019/january 2019/jan_20.html">
-                <p>Details</p>
-            </a>
-        </div>
-        <div class="notice">
-            <p class="date">Jan 16, 2019</p>
-            <h2 class="notice_title">অান্তঃবিভাগ ব্যাডমিন্টন (ছাত্রী) প্রতিযোগিতা</h2>
-            <a href="archive/2019/january 2019/jan_16_19.html">
-                <p>Details</p>
-            </a>
-        </div>
-        <div class="notice">
-            <p class="date">Jan 14, 2019</p>
-            <h2 class="notice_title">আইসিটি খাতে গবেষণার জন্য ফেলোশীপের আবেদন প্রদান প্রসঙ্গে</h2>
-            <a href="archive/2019/january 2019/jan_14.html">
-                <p>Details</p>
-            </a>
-        </div>
+<body id="home" >
+    <!-- nav with login register -->
+    <div id="tnav">
+        <nav class="blue-grey darken-1" id="tnav">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">জ্ঞানঘর</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#" class="btn  waves-effect waves-light  blue lighten-4 black-text">Log in</a></li>
+                    <li><a href="#" class="btn  waves-effect blue">Register</a></li>
+                </ul>
+        </nav>
     </div>
+    <!-- main nav -->
+    <div>
+        <nav class="blue-grey">
+            <div class="nav-wrapper container">
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down" id="mynav">
+                    <li><a href="#">Home <i class="material-icons left">home</i> </a></li>
+                    <li><a href="#">eBooks <i class="material-icons left">book</i></a></li>
+                    <li><a href="#"> <i class="fas fa-blog left"></i>Blogs</a></li>
+
+                    <!-- dropdown trigger -->
+                    <li>
+                        <a href="#" class="dropdown-trigger" data-target="my-drop">
+                            <i class="fas fa-newspaper left"></i>
+                            Resources
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="material-icons left">help</i> Help</a>
+                    </li>
+                </ul>
+                <!-- mobile nav -->
+                <ul class="sidenav blue-grey lighten-1" id="mobile-nav">
+                    <li><a href="#">Home <i class="material-icons left">home</i> </a></li>
+                    <li><a href="#">eBooks <i class="material-icons left">book</i></a></li>
+                    <li><a href="#"> <i class="fa fa-blog left"></i>Blogs</a></li>
+                    <li><a href="#"> <i class="material-icons left">featured_play_list</i> Magazines</a></li>
+                    <li><a href="#"> <i class="fas fa-journal-whills left"></i>Journals</a></li>
+                    <li><a href="#"><i class="material-icons left">import_contacts</i>Research Papers</a></li>
+                    <li>
+                        <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="material-icons left">help</i> Help</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- dropdown menu -->
+    <ul id="my-drop" class="dropdown-content grey lighten-1">
+        <li><a href="#">Magazines</a></li>
+        <li><a href="#">Journals</a></li>
+        <li><a href="#">Research Papers</a></li>
+    </ul>
+
+    <!-- section search bar -->
+    <section class="section section-search grey lighten-2 center scrollspy" id="mysearch">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4 class="white-text">Search<i class="material-icons small">search</i></h4>
+                    <div class="input-field center" id="myinput">
+                        <input type="text" class=" grey-text darken-2 center-align"
+                            placeholder=" book: Object oreinted programming or author: Balagurusamy">
+                            <!-- search btn -->
+                            <button class="btn btn-floating waves-effect waves-blue blue ">
+                                <i class="material-icons large">search</i>
+                            </button> 
+                    </div>
+                    <!-- radio btns -->
+                    <p id="myRbtn">
+                     <label >
+                            <input type="radio" name="rd1" checked>
+                            <span class="white-text">by author</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="rd1" >
+                            <span class="white-text">by book</span>
+                        </label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section: features -->
+    <section class="section section-features center grey lighten-5">
+        <div class="container">
+            <h4 class="blue-grey-text darken-2">Features</h4>
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="card-panel  blue-grey lighten-2 white-text myCard ">
+                        <i class="material-icons medium">book</i>
+                        <h5 class="flow-text">eBooks</h5>
+                        <p>Download ebooks of your prefered subjects</p>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel  blue-grey lighten-2 white-text myCard">
+                        <i class="fas fa-journal-whills fa-4x"></i>
+                        <h5 class="flow-text">Journals</h5>
+                        <p>Download ebooks of your prefered subjects</p>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel  blue-grey lighten-2 white-text myCard">
+                        <i class="material-icons medium">import_contacts</i>
+                        <h5 class="flow-text">Research Papers</h5>
+                        <p>Papers from CoU Graduates</p>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card-panel  blue-grey lighten-2 white-text myCard">
+                        <i class="material-icons medium">featured_play_list</i>
+                        <h5 class="flow-text">Magazines</h5>
+                        <p>Download ebooks of your prefered subjects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card-panel  blue-grey lighten-2 white-text myCard">
+                        <i class="fas fa-blog fa-4x"></i>
+                        <h5 class="flow-text">Blogs</h5>
+                        <p>Download ebooks of your prefered subjects</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel  blue-grey lighten-2 white-text myCard">
+                        <i class="material-icons medium">important_devices</i>
+                        <h5 class="flow-text">Tech News</h5>
+                        <p>Latest technology news at a glance in your hand </p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel  blue-grey lighten-2 white-text myCard">
+                        <i class="fas fa-user-graduate fa-4x"></i>
+                        <h5 class="flow-text">Study Materials</h5>
+                        <p>Download ebooks of your prefered subjects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section new & downloads -->
+    
 
 
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+
+
+
+
+
+    <div style="height:300px"></div>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script>
+        //sidenav
+        const sidenav = document.querySelector('.sidenav');
+        M.Sidenav.init(sidenav, {});
+
+        //dropdown
+        const drop = document.querySelectorAll('.dropdown-trigger');
+         M.Dropdown.init(drop, {
+            coverTrigger: false
+         });             
+    
+
+        // //scrollspy
+        // const ss = document.querySelector('.scrollspy');
+        //  M.ScrollSpy.init(ss,{});
+
+        // //slider
+        // const slider = document.querySelector('.slider');
+        // M.Slider.init(slider, {
+        //     indicators: false,
+        //     height: 500,
+        //     transition: 500,
+        //     interval: 6000
+        // });
+
+        // //autocomplete
+        // const ac = document.querySelector('.autocomplete');
+        // M.Autocomplete.init(ac, {
+        //     data: {
+        //         "Spain": null,
+        //         "South Africa": null,
+        //         "India": null,
+        //         "USA": null,
+        //         "Turkey": null,
+        //         "Japan": null,
+        //         "Australlia": null,
+        //         "Cox's Bazar": null,
+        //         "Bangladesh": null,
+        //     }
+        // });
+
+        // //material boxed
+        // const mb = document.querySelectorAll('.materialboxed')
+        // M.Materialbox.init(mb, {});
+
+
+    </script>
 </body>
 
 </html>

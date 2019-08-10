@@ -1,0 +1,51 @@
+#mynav li a{
+    font-size: 20px !important;
+}
+#tnav{
+    height: 50px !important;
+    line-height: 45px !important;
+    overflow: hidden !important;
+}
+
+#my-drop li a{
+    color: white !important;
+}
+
+.section-search{
+    background-image: url(../images/alfons-morales-YLSwjSy7stw-unsplash-min.jpg);
+}
+#myinput{
+    background: white;
+    border-radius: 50px !important;
+}
+.section-search input{
+    padding: 5px !important;
+    font-size: 22px !important;
+    width: 80% !important;
+}
+
+#myRbtn span{
+    font-size: 20px !important;
+}
+
+.myCard h5{
+    font-size: 22px !important;
+}
+
+
+
+#mobile-nav li a {
+    color: white !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .section-search input{
+        font-size: 14px !important;
+        width: 70% !important;
+    }
+    .myCard h5{
+        font-size: 18px !important;
+    }
+  }
