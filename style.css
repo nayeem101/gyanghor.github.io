@@ -38,14 +38,29 @@
     color: white !important;
 }
 
+#mycollection a {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    color: #546e7a    ;
+}
 
+#mycollection a i{
+    margin-right: 2px !important;
+}
 
 @media only screen and (max-width: 768px) {
     .section-search input{
         font-size: 14px !important;
-        width: 70% !important;
+        width: 75% !important;
     }
     .myCard h5{
         font-size: 18px !important;
+    }
+    #mycollection a {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+    #mycollection a i{
+        margin-right: 0px !important;
     }
   }
