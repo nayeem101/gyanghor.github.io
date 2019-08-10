@@ -4,7 +4,6 @@
 #tnav{
     height: 50px !important;
     line-height: 45px !important;
-    overflow: hidden !important;
 }
 
 #my-drop li a{
@@ -22,17 +21,22 @@
     padding: 5px !important;
     font-size: 22px !important;
     width: 80% !important;
+    border-bottom: none !important;
 }
 
-#myRbtn span{
+#myrd input {
+    max-width: 20px !important;
+    color: white;
+}
+
+#myrd span{
     font-size: 20px !important;
+    color: white;
 }
 
 .myCard h5{
     font-size: 22px !important;
 }
-
-
 
 #mobile-nav li a {
     color: white !important;
