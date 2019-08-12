@@ -87,8 +87,6 @@
     font-weight: 500;
 }
 
-
-
 #mobile-nav li a {
     color: white !important;
 }
@@ -173,6 +171,9 @@
 }
 
 
+#mycollection a i{
+    margin-right: 2px !important;
+}
 
 @media only screen and (max-width: 768px) {
     .section-search input{
