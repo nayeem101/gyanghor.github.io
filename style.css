@@ -211,6 +211,9 @@
     .devcard{
         padding: 10px !important;
     }
+    .devcard img{
+        max-width: 50% !important;
+    }
     .devcard h5{
         font-size: 18px !important;
     }
