@@ -93,14 +93,24 @@
     color: white !important;
 }
 
+#mycollection h5{
+    margin: 0px !important;
+    padding: 10px !important;
+}
 #mycollection a {
     font-size: 20px !important;
-    font-weight: 500 !important;
     color: #181841    ;
 }
 
-#mycollection a i{
-    margin-right: 2px !important;
+#mycollection li:hover{
+    background-color: #f3f3f3 !important;
+}
+#mycollection ul li{
+    padding: 10px !important;
+}
+#mycollection ul li i{
+    max-width: 30px !important;
+    margin-right: 0px !important;
 }
 
 .section-dev{
@@ -109,10 +119,12 @@
 
 .devcard h5{
     font-size: 20px !important;
+    font-weight: 500 !important;
 }
 
-.devcard p{
+.devcard p,h6{
     font-size: 18px;
+    font-weight: 500 !important;
     margin-top: 0px !important;
 }
 .devcard a{
@@ -120,7 +132,7 @@
 }
 
 .devcard a i{
-    color: white;
+    color: #0b0333;
     font-size: 25px;
 }
 
@@ -175,6 +187,13 @@
     color: #f3f3f3 !important;
 }
 
+@media only screen and (max-width: 1222px){
+    
+    #mynav li a{
+        font-size: 16px !important;
+        padding: 0px 7px !important;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .section-search input{
@@ -184,6 +203,16 @@
     .myCard h5{
         font-size: 18px !important;
     }
+    .devcard{
+        padding: 10px !important;
+    }
+    .devcard h5{
+        font-size: 18px !important;
+    }
+    .devcard p{
+        font-size: 15px !important;
+    }
+
     #mycollection a {
         font-size: 16px !important;
         font-weight: 400 !important;
