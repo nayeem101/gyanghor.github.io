@@ -44,7 +44,6 @@
     color: #fff;
     display: inline-block;
     font-size: 2.1rem;
-    /* padding: 0; */
 }
 
 #mobile-nav i{
@@ -99,7 +98,9 @@
     font-weight: 500;
 }
 
-
+#mobile-nav .li-hover:hover{
+    background-color: #4f737e !important;
+}
 
 #mobile-nav li a {
     color: white !important;
@@ -121,8 +122,9 @@
     padding: 10px !important;
 }
 #mycollection ul li i{
-    max-width: 30px !important;
+    max-width: 28px !important;
     margin-right: 0px !important;
+    color: #181841;
 }
 
 .section-dev{
