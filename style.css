@@ -10,6 +10,9 @@
 .off-grey{
     background: #4f737e !important;
 }
+.off-grey-50{
+    background: #0b033370 !important;
+}
 
 .whitish{
     background: #f3f3f3 !important;
@@ -21,7 +24,7 @@
 .whitish-text{
     color: #f3f3f3 !important;
 }
-
+/* colors end */
 
 
 #mynav li a{
@@ -53,9 +56,10 @@
     color: white !important;
 }
 
-.section-search{
-    background-image: url(../images/alfons-morales-YLSwjSy7stw-unsplash-min.jpg);
+#myslide li h4,h5{
+    font-family: 'Times New Roman', Times, serif;
 }
+
 #myinput{
     background: white;
     border-radius: 50px !important;
@@ -76,6 +80,9 @@
     font-size: 20px !important;
     color: white;
 }
+
+
+
 
 .myCard h5{
     font-size: 22px !important;
@@ -108,7 +115,7 @@
 }
 
 #mycollection li:hover{
-    background-color: #f3f3f3 !important;
+    background-color: #4f737e60 !important;
 }
 #mycollection ul li{
     padding: 10px !important;
@@ -139,6 +146,9 @@
 .devcard a i{
     color: #0b0333;
     font-size: 25px;
+}
+.devcard a i:hover{
+    color: #4f737e;
 }
 
 #contact-info {
