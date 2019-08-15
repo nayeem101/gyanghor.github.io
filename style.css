@@ -217,6 +217,9 @@ html,body{
     color: #f3f3f3 !important;
 }
 
+#contact-info, #its, #thoughts{
+    box-shadow: none !important;
+}
 
 /* log in and sign up section */
 
