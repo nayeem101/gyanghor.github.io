@@ -1,4 +1,6 @@
-
+html,body{
+    height: 100%;
+}
 /* colors */
 .deep-blue{
     background: #0b0333 !important;
@@ -9,6 +11,9 @@
 
 .off-grey{
     background: #4f737e !important;
+}
+.off-grey-50{
+    background: #0b033370 !important;
 }
 
 .whitish{
@@ -21,12 +26,16 @@
 .whitish-text{
     color: #f3f3f3 !important;
 }
-
+/* colors end */
 
 
 #mynav li a{
     font-size: 18px !important;
 }
+#mynav li:hover{
+    background-color: #4f737e !important;
+}
+
 #tnav{
     height: 50px !important;
     line-height: 45px !important;
@@ -37,20 +46,21 @@
     color: #fff;
     display: inline-block;
     font-size: 2.1rem;
-    /* padding: 0; */
 }
 
 #mobile-nav i{
     color: #f3f3f3 !important;
+    font-size: 22px !important;
 }
 
 #my-drop li a{
     color: white !important;
 }
 
-.section-search{
-    background-image: url(../images/alfons-morales-YLSwjSy7stw-unsplash-min.jpg);
+#myslide li h4,h5{
+    font-family: 'Times New Roman', Times, serif;
 }
+
 #myinput{
     background: white;
     border-radius: 50px !important;
@@ -58,7 +68,7 @@
 .section-search input{
     padding: 5px !important;
     font-size: 22px !important;
-    width: 80% !important;
+    width: 85% !important;
     border-bottom: none !important;
 }
 
@@ -71,6 +81,9 @@
     font-size: 20px !important;
     color: white;
 }
+
+
+
 
 .myCard h5{
     font-size: 22px !important;
@@ -87,30 +100,33 @@
     font-weight: 500;
 }
 
-
+#mobile-nav .li-hover:hover{
+    background-color: #4f737e !important;
+}
 
 #mobile-nav li a {
     color: white !important;
 }
 
-#mycollection h5{
+#mycollection ul h5{
     margin: 0px !important;
     padding: 10px !important;
 }
-#mycollection a {
+#mycollection ul li a {
     font-size: 20px !important;
     color: #181841    ;
 }
 
 #mycollection li:hover{
-    background-color: #f3f3f3 !important;
+    background-color: #4f737e60 !important;
 }
 #mycollection ul li{
     padding: 10px !important;
 }
 #mycollection ul li i{
-    max-width: 30px !important;
+    max-width: 28px !important;
     margin-right: 0px !important;
+    color: #181841;
 }
 
 .section-dev{
@@ -119,7 +135,7 @@
 
 .devcard h5{
     font-size: 20px !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 
 .devcard p,h6{
@@ -134,6 +150,9 @@
 .devcard a i{
     color: #0b0333;
     font-size: 25px;
+}
+.devcard a i:hover{
+    color: #4f737e;
 }
 
 #contact-info {
@@ -187,6 +206,87 @@
     color: #f3f3f3 !important;
 }
 
+
+/* log in and sign up section */
+
+.fullscreen{
+    height: 100%;
+    background: #0b0333;
+}
+
+.section-log, .section-reg{
+    padding-top: 30px;
+    height: 65%;
+}
+
+.my-reg{
+    margin-top: 10px;
+}
+.my-reg input{
+    color: #f3f3f3 !important;
+}
+.btns{
+    max-width: 500px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btns a{
+    width: 44% !important;
+    border-radius: 10px;
+}
+
+#go-btn{
+    width: 8rem;
+    color: #f3f3f3;
+    border: 2px solid #f3f3f3;
+    border-radius: 15px ;
+    background: transparent !important;
+}
+
+#go-btn:hover{
+    background: #4f737e !important;
+}
+
+.my-log{
+    max-width: 500px !important;
+    margin: 0 auto !important;
+    background: transparent !important;
+    padding-top: 25px !important;
+    box-shadow: none !important;
+}
+
+.mylogin{
+    background-color: transparent !important;
+    border: 2px solid #f3f3f3;
+    border-radius: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.mylogin input{
+    border: 0px !important;
+    text-align: center !important;
+    color: #f3f3f3 !important;
+    height: 2.5rem !important;
+}
+
+.log-footer{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1222px){
     
     #mynav li a{
@@ -196,6 +296,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .section-log, .section-reg{
+        height: 70%;
+    }
+
     .section-search input{
         font-size: 14px !important;
         width: 75% !important;
@@ -206,9 +311,12 @@
     .devcard{
         padding: 10px !important;
     }
-    .devcard h5{
-        font-size: 18px !important;
+    .devcard img{
+        max-width: 50% !important;
     }
+    /* .devcard h5{
+        font-size: 18px !important;
+    } */
     .devcard p{
         font-size: 15px !important;
     }
