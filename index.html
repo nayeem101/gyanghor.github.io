@@ -2,89 +2,164 @@
 <html>
 
 <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
-    <!-- <font awesome> -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <!-- main css -->
-    <link rel="stylesheet" href="style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>জ্ঞানঘর-কুবি</title>
+     <link href="css/material-icons.css" rel="stylesheet" />
+      <link
+         rel="stylesheet"
+         href="css/materialize.min.css"
+         media="screen,projection"
+      />
+      <link type="text/css" rel="stylesheet" href="css/style2.min.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"
+      />
 </head>
 
-<body>
-    <!-- nav with login register -->
-    <div id="tnav" class="navbar-fixed">
-        <nav class="navy-blu" id="tnav">
-            <div class="nav-wrapper container">
-                <a href="home.html" class="brand-logo">জ্ঞানঘর</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="log-in.html" class="btn  waves-effect waves-light  blue darken-2 white-text">Log in</a></li>
-                    <li><a href="register.html" class="btn  waves-effect blue darken-4">Register</a></li>
-                </ul>
-        </nav>
-    </div>
-    <!-- main nav -->
-    <div>
-        <nav class="deep-blue">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#" data-target="mobile-nav" class="sidenav-trigger right">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down" id="mynav">
-                        <li><a href="home.html">Home <i class="material-icons left">home</i> </a></li>
-                        <li><a href="#">eBooks <i class="material-icons left">book</i></a></li>
-                        <li><a href="#"> <i class="fas fa-blog left"></i>Blogs</a></li>
-
+<body class="custom-color"> 
+  <!-- nav with login register -->
+      <section id="navbar">
+         <div id="tnav" class="navbar-fixed z-depth-3">
+            <nav class="custom-color lighten-1" id="tnav">
+               <div class="nav-wrapper container">
+                  <a href="home.html" class="brand-logo">জ্ঞানঘর</a>
+                  <a href="#" data-target="mobile-nav" class="sidenav-trigger right">
+                     <i class="material-icons">menu</i>
+                  </a>
+                  <ul class="right hide-on-med-and-down">
+                     <li>
+                        <a
+                           href="log-in.html"
+                           class="btn waves-effect waves-light blue darken-2 white-text"
+                           >Log in</a
+                        >
+                     </li>
+                     <li>
+                        <a
+                           href="register.html"
+                           class="btn waves-effect blue darken-4"
+                           >Register</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+         <!-- main nav -->
+         <div class="hide-on-med-and-down">
+            <nav class="custom-color">
+               <div class="container">
+                  <div class="nav-wrapper">
+                     <ul class="right hide-on-med-and-down" id="mynav">
+                        <li>
+                           <a href="home.html"
+                              >Home <i class="material-icons left">home</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="ebook.html"
+                              >eBooks <i class="material-icons left">book</i></a
+                           >
+                        </li>
+                        <li>
+                           <a href="blogs.html"
+                              >Blogs <i class="material-icons left">web</i></a
+                           >
+                        </li>
                         <!-- dropdown trigger -->
                         <li>
-                            <a href="#" class="dropdown-trigger" data-target="my-drop">
-                                <i class="fas fa-newspaper left"></i>
-                                Resources
-                                <i class="material-icons right">arrow_drop_down</i>
-                            </a>
+                           <a
+                              href="#"
+                              class="dropdown-trigger"
+                              data-target="my-drop"
+                           >
+                              <i class="material-icons left">source</i>
+                              Resources
+                              <i class="material-icons right">arrow_drop_down</i>
+                           </a>
                         </li>
-
+                        <li class="active">
+                           <a href="study-material.html">
+                              <i class="material-icons left">local_library</i>
+                              Study Materials
+                           </a>
+                        </li>
                         <li>
-                            <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
+                           <a href="#contact"
+                              ><i class="material-icons left">contact_support</i>
+                              Contact
+                           </a>
                         </li>
-                        <li>
-                            <a href="#"><i class="material-icons left">help</i> Help</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!-- mobile nav -->
-    <ul class="sidenav navy-blu" id="mobile-nav">
-        <li><a href="home.html" class="center" id="mylogo">জ্ঞানঘর</a></li>
-        <li><a href="log-in.html" class="btn  waves-effect waves-light  blue darken-2 white-text">Log in</a></li>
-        <li><a href="register.html" class="btn  waves-effect blue darken-4">Register</a></li>
-        <li class="li-hover"><a href="#">Home <i class="material-icons left">home</i> </a></li>
-        <li class="li-hover"><a href="#">eBooks <i class="material-icons left">book</i></a></li>
-        <li class="li-hover"><a href="#"> <i class="fa fa-blog left"></i>Blogs</a></li>
-        <li class="li-hover"><a href="#"> <i class="material-icons left">featured_play_list</i> Magazines</a></li>
-        <li class="li-hover"><a href="#"> <i class="fas fa-journal-whills left"></i>Journals</a></li>
-        <li class="li-hover"><a href="#"><i class="material-icons left">import_contacts</i>Research Papers</a></li>
-        <li class="li-hover">
-            <a href="#"><i class="fas fa-user-graduate left"></i> Study Materials</a>
-        </li>
-        <li class="li-hover">
-            <a href="#"><i class="material-icons left">help</i> Help</a>
-        </li>
-    </ul>
-    <!-- dropdown menu -->
-    <ul id="my-drop" class="dropdown-content navy-blu">
-        <li><a href="#">Magazines</a></li>
-        <li><a href="#">Journals</a></li>
-        <li><a href="#">Research Papers</a></li>
-    </ul>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
 
+         <!-- dropdown menu -->
+         <ul id="my-drop" class="dropdown-content custom-color lighten-1">
+            <li>
+               <a href="journals.html"> Journals </a>
+            </li>
+            <li>
+               <a href="skill-develop.html">
+                  <i class="material-icons left"></i> Skill Develop
+               </a>
+            </li>
+         </ul>
+
+         <!-- mobile nav -->
+         <ul class="sidenav" id="mobile-nav">
+            <li class="center"><a href="home.html" id="mylogo">জ্ঞানঘর</a></li>
+            <li>
+               <a
+                  href="log-in.html"
+                  class="btn waves-effect waves-light blue darken-2 white-text"
+                  >Log in</a
+               >
+            </li>
+            <li>
+               <a href="register.html" class="btn waves-effect blue darken-4"
+                  >Register</a
+               >
+            </li>
+            <li>
+               <a href="home.html">Home <i class="material-icons left">home</i> </a>
+            </li>
+            <li>
+               <a href="ebook.html"
+                  >eBooks <i class="material-icons left">book</i></a
+               >
+            </li>
+            <li>
+               <a href="blogs.html">Blogs <i class="material-icons left">web</i></a>
+            </li>
+            <li>
+               <a href="journals.html">
+                  <i class="material-icons left">chrome_reader_mode</i> Journals
+               </a>
+            </li>
+            <li>
+               <a href="skill-develop.html">
+                  <i class="material-icons left">developer_board</i> Skill Develop
+               </a>
+            </li>
+            <li class="active">
+               <a href="study-material.html">
+                  <i class="material-icons left">local_library</i>
+                  Study Materials
+               </a>
+            </li>
+            <li>
+               <a href="#contact"
+                  ><i class="material-icons left">contact_support</i>
+                  Contact
+               </a>
+            </li>
+         </ul>
+      </section>
     <!-- Slider -->
     <section class="section section-slider center deep-blue">
         <div class="slider" >
@@ -482,8 +557,9 @@
         M.Slider.init(slide,{
             indicators : true
         });
-
-
+        //scrollspy
+        var scrollspy = document.querySelectorAll(".scrollspy");
+        M.ScrollSpy.init(scrollspy, {});
     </script>
 </body>
 
